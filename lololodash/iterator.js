@@ -12,3 +12,4 @@ function addSize(data) {
 }
 
 module.exports = addSize;
+
