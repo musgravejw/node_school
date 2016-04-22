@@ -1,3 +1,5 @@
+// read a file from a command line argument, print out the contents using an asynchronous callback
+
 var fs = require('fs');
 
 fs.readFile(process.argv[2], function(err, data) {

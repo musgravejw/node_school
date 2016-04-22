@@ -1,3 +1,5 @@
+// print files in a directory that match a given extension
+
 var fs = require('fs');
 var path = require('path');
 

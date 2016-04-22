@@ -1,3 +1,5 @@
+// count the number of command line arguments
+
 var sum = 0;
 var i = 0;
 for ( ; i < process.argv.length; i++)
