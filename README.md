@@ -4,3 +4,5 @@ node_school
 ##lololodash
 ##goingnative
 ##learnyoureact
+##async-you
+##how-to-npm
