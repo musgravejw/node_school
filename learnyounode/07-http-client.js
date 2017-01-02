@@ -10,9 +10,9 @@ http.get(url, function(res) {
 
   res.on("error", function(error) {
   	console.log(error.toString());
-  })
+  });
 
   res.on("end", function(end) {
     console.log(end);
-  })
+  });
 });
