@@ -17,6 +17,7 @@ void read_cb(uv_fs_t* read_req) {
 
   /* 5. Close the file descriptor */
   uv_fs_t close_req;
+  r = uv_fs_close(read_req->loop, &close_req, open_req.result, NULL);
   if (r < 0) CHECK(r, "uv_fs_close");
 
   uv_fs_req_cleanup(&open_req);
