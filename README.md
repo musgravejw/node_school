@@ -1,6 +1,9 @@
 node_school
 ===========
 ##learnyounode
+##learnuv
+##learnyoumongo
+##elementary-electron
 ##lololodash
 ##goingnative
 ##learnyoureact
